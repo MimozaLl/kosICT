@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:listSelector="@android:color/transparent"
+   >
+
+    <ImageView
+        android:id="@+id/iv_speaker_pic"
+        android:scaleType="centerCrop"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignBottom="@+id/tv_speaker_Twitter"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:padding="5dp"
+        
+         />
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/tv_speaker_website"
+        android:background="@drawable/speaker_link_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_speaker_Name"
+        android:layout_toRightOf="@+id/iv_speaker_pic"
+        android:text="Website : "
+        android:gravity="left"
+        android:textSize="15sp"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        
+        android:id="@+id/tv_speaker_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_speaker_pic"
+        android:gravity="left"
+        android:padding="5dp"
+        android:text="Name"
+        android:textColor="#006699"
+        android:textSize="20sp" 
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/tv_speaker_Facebook"
+        android:background="@drawable/speaker_link_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_speaker_website"
+        android:layout_below="@+id/tv_speaker_website"
+        android:gravity="left"
+        android:paddingBottom="3dp"
+        android:text="Facebook: "
+        android:textSize="15sp"
+        android:textIsSelectable="true" />
+    <TextView 
+        android:id="@+id/tv_speaker_Des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_speaker_pic"
+        android:textSize="15sp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="10dp"
+        android:textIsSelectable="true"
+        />
+</RelativeLayout>

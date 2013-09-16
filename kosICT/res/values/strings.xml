@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">kosICT</string>
+    <string name="action_settings">Settings</string>
+    <string name="kosICT">kosICT</string>
+    <string name="aboutconf">KosICT is a Regional Conference organized by STIKK (Kosovo Association of Information and Communications Technology) and each year intends to cover the global trending tropics of ICT by gathering international, regional and local speakers.In addition, during this event the Kosovo ICT Association- STIKK will celebrate its 5th anniversary</string>
+    <string name="speakers">Speakers</string>
+    <string name="sponsors">Sponsors&amp;speakers</string>
+    <string name="about">About the conference</string>
+    <string name="AndersIndset">Anders, the born Norwegian out of Trondheim is serial-entrepreneur, management-thinker and speaker in the fields of leadership, branding and innovation. Anders offers companies a different mindset for creative solutions, change and sustainable growth. In 2004 he founded the creative agency evoworkx media in Bad Neustadt an der Saale together along with his partner with the goal to offer companies creative marketing solution on a fullservice scale. Amongst the clients are numerous SMB companies and so called „hidden champions“ and also DAXCompanies such as LINDE Group and Deutsche Post DHL. Over the years Anders has initiated several start-ups from cloud-based software tools, eCommerce applications to an online printhouse (DRUCKHELDEN.DE which he co-founded and build before selling the shares in 2010). Anders is founding partner and managing director of LWL GmbH - Leaders We Love, a company seated in Frankfurt am Main, which have specialized on premium C-Level executive education. LWL GmbH host and run the Marketing &amp; Innovation Forum Europe in Frankfurt and the Manager Meeting Europe also in Frankfurt, to which yearly on each forum 500 top-manager gather to discuss current changes and trends and to get inspiration from the leading global experts and the makers and leaders around the world.</string>
+    <string name="update_app">Do you want to check for updates?\n\n If updates are found, you will have to re-install the app manually.</string>
+    <string name="AridLarsen">Arild Bjørn-Larsen holds an MBA and has extensive management experience in the fields mark branding, strategic development, digitization and the Internet. Bjørn-Larsen has experience from companies such as Apple, NetCom, Norligruppen, JBR / McCann Multimedia, Spray GK / Razorfish and Tarantula. He leads Booksellers Association Digitization Committee and a competency project run by BI, where 16 large Norwegian companies develop strategic competence in the use of Internet and mobile services.</string>
+    <string name="BernardJanischowsky">Bernhard Janischowsky is co-founder and COO of Trestle Group. He has enjoyed a truly global professional career, having begun as an Industrial Engineer in Dallas, Texas. Thereafter, he moved to Spain to join the German engineering group Bosch International, where he was directly responsible for transferring manufacturing processes between locations. He then moved into consulting, advising on the reengineering of corporate strategy of former East German state-owned conglomerates. He was later recruited into Arthur Andersen Business Consulting in Frankfurt, Germany to manage a variety of international projects in the areas of process design and IT strategy. After five years with Arthur Andersen he and three partners founded ecovista, a company focused on planning and implementing large scale IT projects for international clients. Building upon this success, Bernhard co-founded Trestle Group and as COO is responsible for all project delivery. Bernhard holds a degree as Industrial Engineer from the University Erlangen-Nuernberg in Germany and an M.B.A. from London Business School.</string>
+    <string name="JimmyLeach">Jimmy Leach is a digital consultant working for a number of international clients dealing with digital transformation, including the internet governance organisationICANN, the Dubia-based Gems Education and the crowd-funding publisher Unbound. He also advises clients on similar matters for the public relations and public affairs company Portland Communications.
+								Prior to all this, he was Head of Digital Diplomacy for the UK\'s Foreign and Commonwealth Office which in turn followed stints as Editorial Director for Digital at The Independent newspaper; director for digital at Freud Communications; Head of Digital Communications for Prime Ministers Blair and Brown in Downing Street and executive editor at Guardian.co.uk.
+								He lives in south London</string>
+    <string name="Media">Media:</string>
+    <string name="Gold">Gold:</string>
+    <string name="Developers">Developed by: \n</string>
+    <string name="about_text3">\nLincensed under GPL v3.0. Source available at: https://github.com/flosskosova/SFK13-android-app </string>
+
+    
+    
+    	<string name="FirstPart">SFK (Software Freedom Kosova Conference) is the biggest annual nonprofit conference in Kosovo established to promote software freedom, open source software, free culture and open knowledge, a global movement that originally started more than 25 years ago.\n\nThe Conference gathers each year academics, users, developers and people who share the idea that software should be free and open for the community to develop and customize to its needs; that knowledge is a communal property and free and open to everyone.  Each year SFK succeeded in its mission; educating Kosovo youth on Free and Open Source Software, its ideology and the great community behind it. SFK conferences had great impact on creating strong bonds of friendship between the local community and foreign one.\n\nSFK provides a fertile ground to build and enhance networking within the tech community, both in the local region and worldwide by being used as a meeting point for a network of individuals and companies with the aim of sponsoring and initiating projects which benefit the people in Kosovo and which should also result in commercial benefits for the surrounding region.</string>
+
+<string name="SecondPart">Available to both the general public and the technical community, SFK offer it’s attendees:\n\n
+
+\u2022 Local/Regional/International and National networking for business and new friends worldwide.\n
+\n\u2022 Hands-on training and in depth talks from local and international speakers with a focus on the following subjects:\n
+   \n\u2022 Basics: What is Free and Open Source Software?\n
+   \n\u2022 How it works: How open source software gets funded and made (e.g. IBM, Red Hat, etc.), how OSS communities operate, the beauty of sharing code and data to build a better future\n
+   \n\u2022 Business: How can free and open source software help you develop your business?\n
+   \n\u2022 Government: How can OSS support government goals and plans?  Open government data and open data formats for connecting with constituents.\n
+   \n\u2022 Education: Advantages of free and open source software for Education?\n
+   \n\u2022 Non-profit sector: How can public and private institutions benefit from free and open source software?\n
+   \n\u2022 Use and Development: Tools, desktop environment and distros, languages, web/web 2.0, standards, multimedia and video production, communities, security, servers, system administration, networks, mobile, databases, cloud computing  and more.\n</string>
+
+<string name="TitleTwo">Who is organizing SFK ?</string>
+<string name="PartThree">Free Libre Open Source Software Kosova (FLOSSK) is a non-governmental non-profit organization established in order to support, promote and develop:</string>
+<string name="PartFour">   \u2022 Free/Libre Software as defined by the</string>
+<string name="LinkFour">2Free Software Foundation;</string>
+<string name="PartFive">   \u2022 Open Source Software as defined by the</string>
+<string name="LinkFive">Open Source Initiative;</string>
+<string name="PartSix">   \u2022 Open and participatory knowledge as that supported by the :</string>
+<string name="LinkSix">Wikimedia Foundation;</string>
+<string name="PartSeven">   \u2022 Education in information technologies through open courses like those from :</string>
+<string name="LinkSeven">MIT;</string>
+<string name="PartEight">FLOSSK is the organizer of Software Freedom Kosova Conference for the fifth year now, gathering this way people who are interested in creating, developing or simply using free and open source software – based on code that can be altered by the users themselves.
+
+\n\nFLOSSK’s website:</string>
+<string name="LinkEight">  http://www.flossk.org</string>
+<string name="TitleThree">A little History:</string>
+<string name="PartNine">Since, an initiative to promote the plenty fold benefits of free software had not been undertaken until then, on September 2008, James Michael Dupont started an initiative to gather interested parties in the organization of the first Free and Open Source Software in Kosovo.
+
+\n\nThe virtual event attracted around 600 people and this served as an incentive for a group of close-knit partner organizations to be built and start putting the conference into action.
+
+\n\nOn March 22nd 2009, the first general assembly of what came to be called FLOSSK was held. The assembly set the aims and goals of the organization: focusing in gathering all IT and non-IT people interested in creating a single movement in creating a Free and Open Source Software community in Kosovo.</string>
+
+    
+
+
+
+</resources>
