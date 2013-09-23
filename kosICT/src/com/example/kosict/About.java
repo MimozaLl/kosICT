@@ -42,22 +42,23 @@ public class About extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.about);
-		TvLinkFour = (TextView) findViewById(R.id.textViewLinkFour); // set view too TextView
+	}
+		/*//TvLinkFour = (TextView) findViewById(R.id.textViewLinkFour); // set view too TextView
 		TvLinkFour.setOnClickListener(tvLinkFourListener); // set listener to TextView so it can open the Link
 		
-		TvLinkFive = (TextView) findViewById(R.id.textViewLinkFive); // set view too TextView
+		//TvLinkFive = (TextView) findViewById(R.id.textViewLinkFive); // set view too TextView
 		TvLinkFive.setOnClickListener(tvLinkFiveListener); // set listener to TextView so it can open the Link
 		
-		TvLinkSix = (TextView) findViewById(R.id.textViewLinkSix); // set view too TextView
+		//TvLinkSix = (TextView) findViewById(R.id.textViewLinkSix); // set view too TextView
 		TvLinkSix.setOnClickListener(tvLinkSixListener); // set listener to TextView so it can open the Link
 		
-		TvLinkSeven = (TextView) findViewById(R.id.textViewLinkSeven); // set view too TextView
+		//TvLinkSeven = (TextView) findViewById(R.id.textViewLinkSeven); // set view too TextView
 		TvLinkSeven.setOnClickListener(tvLinkSevenListener); // set listener to TextView so it can open the Link
 		
-		TvLinkEight = (TextView) findViewById(R.id.textViewLinkEight); // set view too TextView
+		//TvLinkEight = (TextView) findViewById(R.id.textViewLinkEight); // set view too TextView
 		TvLinkEight.setOnClickListener(tvLinkEightListener); // set listener to TextView so it can open the Link
 	}
-	
+	*/
 	public OnClickListener tvLinkFourListener = new OnClickListener() 
 	   {
 	      @Override

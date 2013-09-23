@@ -4,7 +4,7 @@ public class Day {
 
 	private String title;
 	private String timeStart;
-	private String timeEnd;
+
 	private String speaker;
 	private String description;
 	private String room;
@@ -12,17 +12,13 @@ public class Day {
 	public Day(String tit, String tS, String tE, String sp, String de, String ro) {
 		setTitle(tit);
 		setTimeStart(tS);
-		setTimeEnd(tE);
+
 		setSpeaker(sp);
 		setDescription(de);
 		setRoom(ro);
 	}
 
 	// Getters and Setters for class variables
-
-	public String getTime() {
-		return getTimeStart() + " - " + getTimeEnd();
-	}
 
 	public String getTitlef() {
 		return title;
@@ -38,14 +34,6 @@ public class Day {
 
 	public void setTimeStart(String timeStart) {
 		this.timeStart = timeStart;
-	}
-
-	public String getTimeEnd() {
-		return timeEnd;
-	}
-
-	public void setTimeEnd(String timeEnd) {
-		this.timeEnd = timeEnd;
 	}
 
 	public String getSpeaker() {

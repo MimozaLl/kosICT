@@ -14,8 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class Saturday extends Activity {
-
+public class Program extends Activity {
 	final int ITEM_1 = 1, ITEM_2 = 2, ITEM_3 = 3, ITEM_4 = 4, ITEM_5 = 5,
 			ITEM_6 = 6, ITEM_8 = 8, ITEM_9 = 9, ITEM_10 = 10, ITEM_11 = 11,
 			ITEM_12 = 12, ITEM_13 = 13, ITEM_14 = 14, ITEM_15 = 15,
@@ -157,7 +156,7 @@ public class Saturday extends Activity {
 
 	private class MyListAdapter extends ArrayAdapter<Day> {
 		public MyListAdapter() {
-			super(Saturday.this, R.layout.listitem);
+			super(Program.this, R.layout.listitem);
 		}
 
 		@Override
@@ -204,111 +203,56 @@ public class Saturday extends Activity {
 		{
 
 		case ITEM_1:
-			return createListItemDialog(Digital.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Digital.get(id));
+			
 		case ITEM_2:
-			return createListItemDialog(Digital.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Digital.get(id)); 
+			
 		case ITEM_3:
-			return createListItemDialog(Digital.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Digital.get(id)); 
+			
 		case ITEM_4:
-			return createListItemDialog(Digital.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Digital.get(id));
+
 		case ITEM_5:
-			return createListItemDialog(Digital.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Digital.get(id));
+
 		case ITEM_6:
-			return createListItemDialog(Digital.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Digital.get(id));
+
 		case ITEM_8:
-			return createListItemDialog(Digital.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Digital.get(id));
+
 		case ITEM_9:
-			return createListItemDialog(Digital.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Digital.get(id));
+			
 		case ITEM_10:
-			return createListItemDialog(Outsourcing.get(id)); // to create
-																// aboutDialog
-																// for list view
-																// item
-																// that is
-																// clicked
+			return createListItemDialog(Outsourcing.get(id));
+			
 		case ITEM_11:
-			return createListItemDialog(Outsourcing.get(id)); // to create
-																// aboutDialog
-																// for list view
-																// item
-																// that is
-																// clicked
+			return createListItemDialog(Outsourcing.get(id));
+			
 		case ITEM_12:
-			return createListItemDialog(Outsourcing.get(id)); // to create
-																// aboutDialog
-																// for list view
-																// item
-																// that is
-																// clicked
+			return createListItemDialog(Outsourcing.get(id));
+			
 		case ITEM_13:
-			return createListItemDialog(Outsourcing.get(id)); // to create
-																// aboutDialog
-																// for list view
-																// item
-																// that is
-																// clicked
+			return createListItemDialog(Outsourcing.get(id));
+			
 		case ITEM_14:
-			return createListItemDialog(Mobile.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Mobile.get(id));
+			
 		case ITEM_15:
-			return createListItemDialog(Mobile.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Mobile.get(id));
+			
 		case ITEM_16:
-			return createListItemDialog(Mobile.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Mobile.get(id));
+			
 		case ITEM_17:
-			return createListItemDialog(Mobile.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Mobile.get(id));
+			
 		case ITEM_18:
-			return createListItemDialog(Mobile.get(id)); // to create
-															// aboutDialog
-															// for list view
-															// item
-															// that is clicked
+			return createListItemDialog(Mobile.get(id));
+			
 		default:
 			return null;
 		}

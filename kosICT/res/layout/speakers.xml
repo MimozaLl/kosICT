@@ -18,15 +18,15 @@
     <View
         android:layout_width="fill_parent"
         android:layout_height="3dp"
-        android:background="@android:color/darker_gray" />
+        android:background="#006699" />
 
     <ListView
         android:id="@+id/lv_speakers"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clickable="false"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp"
+        android:divider="#006699"
+        android:dividerHeight="3dp"
         android:listSelector="@android:color/transparent" >
     </ListView>
 

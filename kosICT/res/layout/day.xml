@@ -8,35 +8,56 @@
         android:id="@+id/tvTitleListView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
         android:gravity="center"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:paddingTop="10dp"
+        android:padding="10dp"
         android:textSize="20sp"
         android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/tvTitleAddress"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/tvTitleListView"
-        android:layout_marginBottom="5dp"
-        android:gravity="center"
-        android:textSize="13sp" />
 
     <View
         android:layout_width="fill_parent"
         android:layout_height="3dp"
-        android:background="@android:color/darker_gray" />
+        android:background="#006699" />
+
+    <ImageView
+        android:id="@+id/ImageViewDigitalTransform"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/digital_transformation" />
 
     <ListView
-        android:id="@+id/lv"
+        android:id="@+id/DigitalTransform"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="@android:color/darker_gray"
+        android:divider="#006699"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/ImageViewOutsourcingFuture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/outsourcing_future" />
+
+    <ListView
+        android:id="@+id/OutsourcingFuture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#006699"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/ImageViewMobileSolutions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mobile_solutions" />
+
+    <ListView
+        android:id="@+id/MobileSolutions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#006699"
         android:dividerHeight="1dp" >
     </ListView>
 
